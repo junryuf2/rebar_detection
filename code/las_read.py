@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from numpy.core.records import array
 
-from testing_knn import find_peak, peak_helper
+from rebar_knn import find_peak, peak_helper
 
 
 
@@ -230,7 +230,7 @@ print(len(peaks_y))
 print(len(peaks_z))
 
 
-mark_peaks(peaks_x, peaks_y, peaks_z,"testing.txt", input_file)
+mark_peaks(peaks_x, peaks_y, peaks_z,"annotated_las.txt", input_file)
 # gaps_x = analyze_gap(peaks_x)
 
 graph_gap(peaks_x, 2.0, 2.72)
