@@ -7,3 +7,4 @@ You can perform rebar peak detection analysis using las_read.py.
 2. The neighbor size, 0 < n < 10 (recommended)It can not be a non positive number. It can not be a size greater than half of the total length of the given sample size.
 3. The complete file path
 
+Once processed, the annotated_las.txt inside code folder will output the annotated coordinates that can be opened in 3D LAS viewing softwares.
